@@ -1,1 +1,2 @@
-# linear_regression
+# Multiple Linear Regression in R
+
