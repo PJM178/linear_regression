@@ -24,4 +24,10 @@ Figure 1. presents the results of fitting a model with every explanatory variabl
 
 **Figure 2.** Model with cly, drat, vs, gear, and carb variables removed
 
-Figure 2. has the model with previously mentioned variables removed. The model is still statistically significant and the explanatory power model of the model has increased. Now also wt, qsec as well as am are statistically significant. We can try to further improve the model by removing the still statistically insignificant variables. 
+Figure 2. has the model with previously mentioned variables removed. The model is still statistically significant and the explanatory power model of the model has increased. Now also wt, qsec as well as am are statistically significant. We can try to further improve the model by removing the still statistically insignificant variables.
+
+![final_model_with_wt_qsec_am](https://user-images.githubusercontent.com/91892495/154491116-ddd54318-4d6c-4335-b685-8d4b40ecb474.jpg)
+
+**Figure 3.** Final model
+
+Figure 3. contains the final model. The model explanatory power is about the same as before but now every independent variables is statistically significant at the chosen significance level. Only intercept is not statistically significant, however removing it means that the line will go through the origin, which generally is not the best fit. Also, including the intercept means that the assumption (1) will always hold. 
