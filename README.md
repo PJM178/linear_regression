@@ -30,4 +30,6 @@ Figure 2. has the model with previously mentioned variables removed. The model i
 
 **Figure 3.** Final model
 
-Figure 3. contains the final model. Weight (1000 lbs) (wt), 1/4 mile time (qsec), and transmission (am) are the final explanatory variables. These variables seem to make sense explaining the consumption. The model explanatory power is about the same as before but now every independent variables is statistically significant at the chosen significance level. Only intercept is not statistically significant, however removing it means that the line will go through the origin, which generally is not the best fit. Also, including the intercept means that the assumption (1) will always hold. 
+Figure 3. contains the final model. Weight (1000 lbs) (wt), 1/4 mile time (qsec), and transmission (am) are the final explanatory variables. These variables seem to make sense explaining the consumption. The model explanatory power is about the same as before but now every independent variables is statistically significant at the chosen significance level. Only intercept is not statistically significant, however removing it means that the line will go through the origin, which generally is not the best fit. Also, including the intercept means that the assumption (1) will always hold.
+
+
