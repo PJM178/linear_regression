@@ -12,7 +12,7 @@ Dataset "mtcars" contains 32 observations (cars) on 11 variables (miles per gall
 
 ## Results
 
-For the purpose of the statistical tests, 5% signifigance level is chose. This means that is the p-value of a statistical test is less than 0.05 the null hypothesis of the test is rejected and the results can be said to be statistically significant.
+For the purpose of the statistical tests, 5% signifigance level is chosen. This means that if the p-value of a statistical test is less than 0.05 the null hypothesis of the test is rejected and the results can be said to be statistically significant.
 
 ![model_with_every_variable](https://user-images.githubusercontent.com/91892495/154483402-927ce724-5579-4faa-a25f-eeb338c634ea.jpg)
 
