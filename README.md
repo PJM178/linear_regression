@@ -8,7 +8,14 @@ The idea behind linear regression is that the dependent variable, the variable t
 
 For the estimators, i.e. the parameters gotten from the model, to be BLUE - **B**est **L**inear **U**nbiased **E**stimators - several assumptions of the model has to hold. (1) The errors have zero mean, (2) the variance of the errors is constant and finite, (3) the errors are statistically independent of one another, (4) no relationship between the error and corresponding x variate, and (5) the errors are normally distributed. These assumptions can be validated by either visually examining relevant plots or by statistical tests. If the assumptions hold true, then the estimators estimate the true value of the parameter, the estimators are linear estimators, on average the value of the estimators are equal to the true values, and the estimators have the minimum variance among the possible linear unbiased estimators estimators.
 
-Dataset "mtcars" contains 32 observations (cars) on 11 variables (miles per gallon, number of cylinders, gross horsepower, etc.). The variables are numeric, continous and integers, and contains no missing values. 
+Dataset "mtcars" contains 32 observations (cars) on 11 variables (miles per gallon, number of cylinders, gross horsepower, etc.). The variables are numeric, continous and integers, and contains no missing values.
 
 ## Results
 
+For the purpose of the statistical tests, 5% signifigance level is chose. This means that is the p-value of a statistical test is less than 0.05 the null hypothesis of the test is rejected and the results can be said to be statistically significant.
+
+![model_with_every_variable](https://user-images.githubusercontent.com/91892495/154483402-927ce724-5579-4faa-a25f-eeb338c634ea.jpg)
+
+**Figure 1.** Regression model with every variable
+
+Figure 1. presents the results of fitting a model with every explanatory variable. We can see that the model itself is highly statistically significant with a low p-value, howevery of the regressors only "wt" approaches statistical signifigance. We can start improving the model by removing the regressors that are not very statistically significant and make real world sense contributing little to the consumption.
