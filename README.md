@@ -32,4 +32,10 @@ Figure 2. has the model with previously mentioned variables removed. The model i
 
 Figure 3. contains the final model. Weight (1000 lbs) (wt), 1/4 mile time (qsec), and transmission (am) are the final explanatory variables. These variables seem to make sense explaining the consumption. The model explanatory power is about the same as before but now every independent variables is statistically significant at the chosen significance level. Only intercept is not statistically significant, however removing it means that the line will go through the origin, which generally is not the best fit. Also, including the intercept means that the assumption (1) will always hold.
 
+![original_vs_fitted](https://user-images.githubusercontent.com/91892495/154651553-607134a8-e776-4908-b4c5-cb3ce5337340.jpeg)
+
+**Figure 4.** Original vs fitted values
+
+Figure 4. plots the model fitted values against the original data values. Fit seems to be relatively good, however training the model and testing the model was done with the same dataset, so the results may not be very generalizable. 
+
 
